@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Leonardo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">   
+  <div class="wrapper row1">
+       <header id="header" class="hoc clear">       
+      <div id="logo" class="fl_left">
+        <h1><a href="index.html">Leonardo Lacerda</a></h1>
+      </div>
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li class="active"><a href="index.html">Home</a></li>   
+          <li><a class="drop" href="#">Sobre</a>
+            <ul>
+              <li><a href="leonardo.html">LEONARDO</a></li>
+              <li><a href="#">Full Width</a></li>
+              <li><a href="#">LINK TEXT</a></li>
+              <li><a href="#">LINK TEXT</a></li>
+              <li><a href="#">LINK TEXT</a></li>
+            </ul>
+          </li>      
+          <li><a class="drop" href="#">Dropdown</a>
+            <ul>
+              <li><a href="#">LINK TEXT</a></li>
+              <li><a class="drop" href="#">LINK TEXT</a>
+                <ul>
+                  <li><a href="#">LINK TEXT</a></li>
+                  <li><a href="#">LINK TEXT</a></li>
+                  <li><a href="#">LINK TEXT</a></li>
+                </ul>
+              </li>
+              <li><a href="#">LINK TEXT</a></li>
+            </ul>
+          </li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>      
+    </header>
+  </div> 
+  <div class="wrapper row2">
+    <div id="breadcrumb" class="hoc clear">       
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contato</a></li>               
+      </ul>
+      
+    </div>
+  </div>  
+</div>
+<div class="wrapper row3">
+  <main class="hoc container clear">     
+   <div id="comments">      
+      <h1>Formulário de Cadastro</h1>
+    <form action="" method="post" id='form-contato'>
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" class="form-control" id="nome" name="nome" placeholder="Infome o Nome">
+          <span class='msg-erro msg-nome'></span>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Informe o E-mail">
+          <span class='msg-erro msg-email'></span>
+        </div>
+        <div class="form-group">
+          <label for="privilegio">Sexo</label>
+          <select class="form-control" name="sexo" id="sexo">
+          <option value="">Selecione o Sexo</option>
+          <option value="Feminino">Feminino</option>
+          <option value="Masculino">Masculino</option>
+        </select>
+        <span class='msg-erro msg-sexo'></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Senha (mínimo 6 caracteres)</label>
+          <input type="password" class="form-control" id="senha" name="senha" placeholder="Informe a Senha">
+          <span class='msg-erro msg-senha'></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Repita a Senha (mínimo 6 caracteres)</label>
+          <input type="password" class="form-control" id="senha2" name="senha2" placeholder="Informe a Senha">
+          <span class='msg-erro msg-senha2'></span>
+        </div>
+        <button type="submit" class="btn btn-primary" id='botao'> 
+          Gravar
+        </button>
+    </form>
+    </div>    
+  </footer>
+</div>
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Leo Lacerda</a></p> 
+  </div>
+</div>
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<script src="layout/scripts/jquery.flexslider-min.js"></script>
+<script src="layout/scripts/custom.js"></script>
+</body>
+</html>
